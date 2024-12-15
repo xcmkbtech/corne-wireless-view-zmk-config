@@ -237,7 +237,8 @@
             >;
         };
 
-        game {
+        game {-
+            label = "(7)GAME";    
             bindings = <
   &kp ESC    &kp Q  &kp W     &kp E      &kp R        &trans  &trans  &trans  &trans  &to 0
   &kp TAB    &kp A  &kp S     &kp D      &kp F        &trans  &trans  &trans  &trans  &trans
@@ -245,7 +246,7 @@
                     &kp LALT  &kp SPACE  &kp SPACE    &trans  &trans  &trans
             >;
 
-            label = "(7)GAME";
+            
                 };
 
                 extra_1 {
